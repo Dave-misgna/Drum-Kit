@@ -1,0 +1,42 @@
+body{
+    background-color:midnightblue;
+    
+}
+.heading{
+    text-align: center;
+}
+.my_h1{
+    color: wheat;
+    font-family: "Platypi", serif;
+    font-size: 5rem;
+    font-weight: 2rem;   
+}
+.my_drums{
+   display: flex;
+   justify-content: center;
+   margin-top: 180px;
+   gap: 2rem;
+   flex-wrap: wrap;
+    
+}
+.images{
+    width: 120px;
+    height: 120px;
+    
+}
+.drum-pad_drum{
+    
+    border-width: 10px;
+    border-color: rgb(56, 53, 53);
+    border-radius: 15px;
+    border-style:solid;
+    cursor: pointer;
+        
+}
+footer{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
